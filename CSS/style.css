@@ -1,0 +1,453 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 56px auto;
+    
+}
+
+.logo img{
+    width: 120px;
+}
+
+
+.banner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.textinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 46px 0px;
+    padding: 0px 20px;
+}
+
+.textinfo h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #353854;
+    
+    
+}
+
+.textinfo p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: #6e718d;
+}
+
+.cta{
+    padding: 22px 56px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 143, 245);
+    color: white;
+    font-weight: bolder;
+}
+
+.btn{
+    padding: 22px 56px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    background-color: rgb(167, 84, 245);
+    color: white;
+    font-weight: bolder;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    position: relative;
+    bottom: -30px;
+}
+.container{
+    width: 62px;
+    height: 62px;
+    background-color: white;
+    border: 2px solid rgba(223, 223, 223, 0.582);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color:rgb(104, 104, 104) ;
+
+}
+
+.container::before{
+    content: '';
+    display: inline-block;
+    height: 96px;
+    width: 2px;
+    background-color: rgba(223, 223, 223, 0.582) ;
+    position: relative;
+    top: -78px;
+    left: 12px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 56px ;
+    margin-top: 70px;
+   
+}
+.holder1{
+    height: 160px;
+    width: 160px;
+    background-color: #35385473;
+    border-radius: 12px;
+    background-image: url("/Images/Pexels\ Photo\ by\ Andrea\ Piacquadio.png");
+   
+    background-size: cover;
+    
+}
+.holder2{
+    height: 160px;
+    width: 160px;
+    background-color: #35385473;
+    border-radius: 12px;
+    background-image: url("/Images/Pexels\ Photo\ by\ Anna\ Shvets.png");
+   
+    background-size: cover;
+    
+}
+
+.holder3{
+    height: 160px;
+    width: 160px;
+    background-color: #35385473;
+    border-radius: 12px;
+    background-image: url("/Images/Pexels\ Photo\ by\ Pixabay.png");
+   
+    background-size: cover;
+    
+}
+
+.holder4{
+    height: 160px;
+    width: 160px;
+    background-color: #35385473;
+    border-radius: 12px;
+    background-image: url("/Images/Pexels\ Photo\ by\ William\ \ Fortunato.png");
+   
+    background-size: cover;
+    
+}
+
+
+.textinfo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0px 20px;
+    margin: 50px 0px;
+    
+}
+
+.textinfo2 h3{
+    font-family: sans-serif;
+    color: rgb(61, 130, 170);
+    font-size: 22px;
+    font-weight: light;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.textinfo2 h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+    color: #353854;
+}
+
+.textinfo2 p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: #6e718d;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    
+    background-image: url("/Images/Group\ 7.png");
+
+    background-size: cover;
+    background-position: center;
+   
+    
+   
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 34px;
+    padding: 0px 20px;
+    
+}
+
+.info h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+}
+
+.info p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: white;
+}
+
+
+.cta2{
+    padding: 22px 56px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    background-color: rgb(167, 84, 245);
+    color: white;
+    font-weight: bolder;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 28px;
+}
+
+.left{
+    display: none;
+}
+.right{
+    display: none;
+}
+
+@media only screen and (min-width:689px){
+
+    .buttons{
+        
+        flex-direction: row;
+        
+        
+       
+    }
+
+    .textinfo p{
+        padding: 0px 120px;
+        padding-bottom: 10px;
+        
+    }
+
+    .textinfo2 h1{
+        padding: 0px 150px;
+    }
+
+    .textinfo2 p{
+        padding: 0px 72px;
+    }
+
+    .info h1{
+        padding: 0px 150px;
+    }
+    .info p{
+        padding: 0px 45px;
+    }
+
+    .holder1{
+        height: 200px;
+        width: 200px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Andrea\ Piacquadio.png");
+       
+        background-size: cover;
+        
+    }
+    .holder2{
+        height: 200px;
+        width: 200px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Anna\ Shvets.png");
+       
+        background-size: cover;
+        
+    }
+    
+    .holder3{
+        height: 200px;
+        width: 200px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Pixabay.png");
+       
+        background-size: cover;
+        
+    }
+    
+    .holder4{
+        height: 200px;
+        width: 200px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ William\ \ Fortunato.png");
+       
+        background-size: cover;
+        
+    }
+
+}
+    
+
+@media only screen and (min-width:1200px){
+    .mobile{
+        display: none;
+    }
+
+    .left{
+        display: block;
+        height: 290px;
+    }
+    .right{
+        display: block;
+        height: 290px;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .textinfo2 h1{
+        padding: 0px 141px;
+    }
+
+    .textinfo2 p{
+        padding:0px 350px ;
+    }
+
+    .info{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 150px;
+        
+    }
+
+    .info h1{
+        padding: 0px;
+        text-align: left;
+    }
+
+    .info p{
+        padding: 0px;
+        text-align: left;
+    }
+
+    .cta2 {
+        padding: 16px 0px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-family: sans-serif;
+        border: none;
+        outline: none;
+        background-color: rgb(167, 84, 245);
+        color: white;
+        font-weight: bolder;
+        width: 250px;
+    }
+
+
+    .holder1{
+        height: 250px;
+        width: 250px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Andrea\ Piacquadio.png");
+       
+        background-size: cover;
+        
+    }
+    .holder2{
+        height: 250px;
+        width: 250px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Anna\ Shvets.png");
+       
+        background-size: cover;
+        
+    }
+    
+    .holder3{
+        height: 250px;
+        width: 250px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ Pixabay.png");
+       
+        background-size: cover;
+        
+    }
+    
+    .holder4{
+        height: 250px;
+        width: 250px;
+        background-color: #35385473;
+        border-radius: 12px;
+        background-image: url("/Images/Pexels\ Photo\ by\ William\ \ Fortunato.png");
+       
+        background-size: cover;
+        
+    }
+}
